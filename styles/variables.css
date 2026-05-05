@@ -8,4 +8,7 @@
   --font-size-subheading: clamp(14px, -1.00px + 1.25vw, 23px);
   --header-padding-block: clamp(120px, 106.67px + 1.11vw, 128px);
   --header-padding-inline: clamp(14px, -163.50px + 14.79vw, 120.5px);
+  --header-margin-top: 100px;
+  --header-block-size: clamp(327px, 258.67px + 5.69vw, 368px);
+  --header-inline-size: clamp(375px, -166.67px + 45.14vw, 700px);
 }

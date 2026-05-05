@@ -20,13 +20,15 @@
 
 
 .header {
-  block-size: clamp(375px, -166.67px + 45.14vw, 700px);
+  margin-top: var(--header-margin-top);
+  margin-inline: auto;
+  inline-size: var(--header-inline-size);
+  block-size: var(--header-block-size);
+  border: 2px solid #000;
 }
 
 .header-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   font-family: var(--font-accent);
   font-weight: var(--font-weight-heading);
   padding: var(--header-padding-block) var(--header-padding-inline);
@@ -42,4 +44,20 @@
   margin-top: 20px;
   text-transform: uppercase;
   font-variation-settings: 'wght' var(--font-weight-heading) 'size' var(--font-size-subheading);
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 40px 20px;
+}
+
+@media (width <= 375px) {
+  .header{
+    inline-size: 100%;
+    min-inline-size: 100%;
+
+  }
 }

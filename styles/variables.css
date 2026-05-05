@@ -11,4 +11,7 @@
   --header-margin-top: 100px;
   --header-block-size: clamp(327px, 258.67px + 5.69vw, 368px);
   --header-inline-size: clamp(375px, -166.67px + 45.14vw, 700px);
+  --header-border-size: 2px;
+  --header-borde-color: #000;
+  --header-border-type: solid;
 }

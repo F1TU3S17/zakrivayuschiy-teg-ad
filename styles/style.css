@@ -24,7 +24,7 @@
   margin-inline: auto;
   inline-size: var(--header-inline-size);
   block-size: var(--header-block-size);
-  border: 2px solid #000;
+  border: var(--header-border-size) var(--header-border-type) var(--header-borde-color);
 }
 
 .header-container {

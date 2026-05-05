@@ -3,5 +3,9 @@
   --font-primary: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-accent: 'PressStart2P', 'Courier New', monospace;
   --font-weight-body: 400;
-  --font-weight-heading: 700;
+  --font-weight-heading: 400;
+  --font-size-heading: clamp(49px, 22.33px + 2.22vw, 65px);
+  --font-size-subheading: clamp(14px, -1.00px + 1.25vw, 23px);
+  --header-padding-block: clamp(120px, 106.67px + 1.11vw, 128px);
+  --header-padding-inline: clamp(14px, -163.50px + 14.79vw, 120.5px);
 }

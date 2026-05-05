@@ -17,3 +17,29 @@
   font-weight: var(--font-weight-body);
   font-variation-settings: 'wght' var(--font-weight-body);
 }
+
+
+.header {
+  block-size: clamp(375px, -166.67px + 45.14vw, 700px);
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-accent);
+  font-weight: var(--font-weight-heading);
+  padding: var(--header-padding-block) var(--header-padding-inline);
+}
+
+.header-title {
+  font-size: var(--font-size-heading);
+  font-variation-settings: 'wght' var(--font-weight-heading) 'size' var(--font-size-heading);
+}
+
+.header-subtitle {
+  font-size: var(--font-size-subheading);
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-variation-settings: 'wght' var(--font-weight-heading) 'size' var(--font-size-subheading);
+}

@@ -4,14 +4,27 @@
   --font-accent: 'PressStart2P', 'Courier New', monospace;
   --font-weight-body: 400;
   --font-weight-heading: 400;
-  --font-size-heading: clamp(49px, 22.33px + 2.22vw, 65px);
-  --font-size-subheading: clamp(14px, -1.00px + 1.25vw, 23px);
-  --header-padding-block: clamp(120px, 106.67px + 1.11vw, 128px);
-  --header-padding-inline: clamp(14px, -163.50px + 14.79vw, 120.5px);
+  --font-size-heading: clamp(49px, 43.37px + 1.50vw, 65px);
+  --font-size-subheading: clamp(14px, 10.83px + 0.85vw, 23px);
+  --header-padding-block: clamp(120px, 117.18px + 0.75vw, 128px);
+  --header-padding-inline: clamp(14px, -23.50px + 10.00vw, 120.5px);
   --header-margin-top: 100px;
-  --header-block-size: clamp(327px, 258.67px + 5.69vw, 368px);
-  --header-inline-size: clamp(375px, -166.67px + 45.14vw, 700px);
+  --header-inline-size: clamp(375px, 260.56px + 30.52vw, 700px);
   --header-border-size: 2px;
   --header-borde-color: #000;
   --header-border-type: solid;
+  --content-section-inline-size: clamp(375px, 260.56px + 30.52vw, 700px);
+  --content-section-gap: 50px;
+  --card-title-font-size: 18px;
+  --card-title-font-weight: 700;
+  --card-border-size: 2px;
+  --card-border-color: #000;
+  --card-border-type: solid;
+  --button-text-size: 14px;
+  --button-text-weight: 400;
+  --card-like-button-border-size: 2px;
+  --card-like-button-border-color: #000;
+  --card-like-button-border-type: solid;
+
+
 }

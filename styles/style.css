@@ -36,28 +36,104 @@
 
 .header-title {
   font-size: var(--font-size-heading);
-  font-variation-settings: 'wght' var(--font-weight-heading) 'size' var(--font-size-heading);
 }
 
 .header-subtitle {
   font-size: var(--font-size-subheading);
   margin-top: 20px;
   text-transform: uppercase;
-  font-variation-settings: 'wght' var(--font-weight-heading) 'size' var(--font-size-subheading);
 }
 
 .content-section {
+  margin-top: 100px;
+  margin-inline: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
-  padding: 40px 20px;
+  inline-size: var(--content-section-inline-size);
+  gap: var(--content-section-gap);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: var(--card-border-size) var(--card-border-type) var(--card-border-color);
+}
+
+.card-title {
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 24px;
+  font-size: var(--card-title-font-size);
+  font-weight: var(--card-title-font-weight);
+  font-variation-settings: 'wght' var(--card-title-font-weight);
+}
+
+.image-container {
+  width: 100%;
+}
+
+.card-image {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-content {
+  padding: 25px;
+  font-size: 18px;
+  line-height: 21px;
+  border-top: var(--card-border-size) var(--card-border-type) var(--card-border-color);
+}
+
+.card-buttons-container {
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.card-text:not(:last-child) {
+  margin-bottom: 27px;
+}
+
+.card-buttons-container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  gap: 12px;
+  block-size: 38px;
+}
+
+.card__like-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: var(--card-like-button-border-size) var(--card-like-button-border-type) var(--card-like-button-border-color);
+  block-size: 38px;
+  inline-size: 130px;
+}
+
+.button__text {
+  font-family: var(--font-accent);
+  font-size: var(--button-text-size);
+  font-weight: var(--button-text-weight);
 }
 
 @media (width <= 375px) {
   .header{
     inline-size: 100%;
     min-inline-size: 100%;
-
+    margin-inline: 0;
   }
+
+  .content-section {
+    inline-size: 100%;
+    min-inline-size: 100%;
+    margin-inline: 0;
+  }
+
+
 }

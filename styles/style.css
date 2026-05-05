@@ -9,6 +9,11 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+@supports (font-variation-settings: normal) {
+  .page {
+    font-family: var(--font-primary);
+  }
+}
 
 .page {
   min-inline-size: 320px;
@@ -72,6 +77,35 @@
 
 .image-container {
   width: 100%;
+  position: relative;
+}
+
+.image-container-label {
+  font-size: 14px;
+  position: absolute;
+  opacity: 0.5;
+  top: 30px;
+  right: 25px;
+  font-family: var(--font-accent);
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  text-shadow:
+    1px 0 0 var(--label-stroke-color),
+    -1px 0 0 var(--label-stroke-color),
+    0 1px 0 var(--label-stroke-color),
+    0 -1px 0 var(--label-stroke-color);
+  mix-blend-mode: hard-light;
+  z-index: 2;
+  pointer-events: none;
+  text-transform: uppercase;
+}
+
+@supports (-webkit-text-stroke: 1px var(--label-stroke-color)) {
+  .image-container-label {
+    -webkit-text-stroke: 1px var(--label-stroke-color);
+    text-shadow: none;
+  }
 }
 
 .card-image {

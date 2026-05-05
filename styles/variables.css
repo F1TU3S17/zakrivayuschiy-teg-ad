@@ -1,5 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    
-
+  --font-primary: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-accent: 'PressStart2P', 'Courier New', monospace;
+  --font-weight-body: 400;
+  --font-weight-heading: 700;
 }

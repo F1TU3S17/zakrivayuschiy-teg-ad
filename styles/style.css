@@ -310,6 +310,10 @@
   filter: blur(20px);
 }
 
+.card:nth-child(8) .card-image {
+  filter: drop-shadow(16px 16px 20px red);
+}
+
 @media (width <= 375px) {
   .header {
     inline-size: 100%;

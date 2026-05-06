@@ -21,10 +21,16 @@
   font-family: var(--font-primary);
   font-weight: var(--font-weight-body);
   font-variation-settings: 'wght' var(--font-weight-body);
+  background-image: var(--background-gradient);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 
 .header {
+  background-color: white;
   margin-top: var(--header-margin-top);
   margin-inline: auto;
   inline-size: var(--header-inline-size);
@@ -59,7 +65,10 @@
   gap: var(--content-section-gap);
 }
 
+
+
 .card {
+  background-color: white;
   display: flex;
   flex-direction: column;
   border: var(--card-border-size) var(--card-border-type) var(--card-border-color);
@@ -164,10 +173,12 @@
 }
 
 .save-button {
+  background-color: white;
   gap: 8px;
   block-size: 55px;
   inline-size: 335px;
   padding: 0;
+  margin-bottom: 100px;
 }
 
 .button__icon-container {

@@ -30,3 +30,14 @@
   --main-body-color: black;
   transition: fill 0.3s 0s;
 }
+
+
+.card__icon-button:active .core {
+  --core-color: red;
+  transition: fill 0.3s 0.03s;
+}
+
+.card__icon-button:active .main-body {
+  --main-body-color: red;
+  transition: fill 0.3s 0s;
+}

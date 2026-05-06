@@ -32,5 +32,11 @@
     repeating-linear-gradient(to right, #d3d3d3 0 2px, rgb(211 211 211 / 0) 2px 4px), 
     linear-gradient(to bottom, #e7e7e7, #e7e7e7 0.01%, #1a1a1a 100%);
 
+  --contour-color: black;
+  --core-color: none;
+  --core-body-color: none;
+  --sparks-color: none;
+
+
 
 }

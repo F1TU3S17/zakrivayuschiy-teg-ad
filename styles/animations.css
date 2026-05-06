@@ -9,3 +9,15 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+
+/* Default: hide sparks; reveal when svg has .is-liked */
+.like-icon .sparks {
+	opacity: 0;
+	transition: opacity 240ms ease-in-out;
+}
+
+.like-icon.is-liked .sparks {
+	opacity: 1;
+}
+
+

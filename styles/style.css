@@ -200,12 +200,20 @@
   mix-blend-mode: difference;
 }
 
+.like-icon {
+  display: block;
+  height: 38px;
+  width: 38px;
+}
+
 .card__icon-button {
   background-color: transparent;
   border: transparent solid 2px;
+  padding: 0;
   height: 38px;
   width: 38px;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 

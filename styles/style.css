@@ -286,27 +286,27 @@
 }
 
 
-.card-image:nth-child(2) {
+.card:nth-child(2) .card-image{
   filter: grayscale(100%);
 }
 
-.card-image:nth-child(3) {
+.card:nth-child(3) .card-image {
   filter:invert(100%);
 }
 
-.card-image:nth-child(4) {
+.card:nth-child(4) .card-image {
   filter: hue-rotate(0.5turn);
 }
 
-.card-image:nth-child(5) {
+.card:nth-child(5) .card-image {
   filter: saturate(390%);
 }
 
-.card-image:nth-child(6) {
+.card:nth-child(6) .card-image {
   filter: sepia(100%);
 }
 
-.card-image:nth-child(7) {
+.card:nth-child(7) .card-image {
   filter: blur(20px);
 }
 

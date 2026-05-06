@@ -201,8 +201,21 @@
 }
 
 .card__icon-button {
-  border: none;
   background-color: transparent;
+  border: transparent solid 2px;
+  height: 38px;
+  width: 38px;
+  display: flex;
+  align-items: center;
+}
+
+.card__icon-button:focus {
+  outline: none;
+}
+
+.card__icon-button:focus-visible {
+  border: 2px solid black;
+  transition: outline 0.3s ease;
 }
 
 .save-button {

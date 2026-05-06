@@ -90,7 +90,6 @@
 }
 
 .image-container-label {
-  font-size: 14px;
   position: absolute;
   opacity: 0.5;
   top: 30px;
@@ -130,10 +129,6 @@
   border-top: var(--card-border-size) var(--card-border-type) var(--card-border-color);
 }
 
-.card-buttons-container {
-  margin-right: 25px;
-  margin-bottom: 25px;
-}
 
 .card-text:not(:last-child) {
   margin-bottom: 27px;
@@ -290,8 +285,33 @@
   block-size: 39px;
 }
 
+
+.card-image:nth-child(2) {
+  filter: grayscale(100%);
+}
+
+.card-image:nth-child(3) {
+  filter:invert(100%);
+}
+
+.card-image:nth-child(4) {
+  filter: hue-rotate(0.5turn);
+}
+
+.card-image:nth-child(5) {
+  filter: saturate(390%);
+}
+
+.card-image:nth-child(6) {
+  filter: sepia(100%);
+}
+
+.card-image:nth-child(7) {
+  filter: blur(20px);
+}
+
 @media (width <= 375px) {
-  .header{
+  .header {
     inline-size: 100%;
     min-inline-size: 100%;
     margin-inline: 0;

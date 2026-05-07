@@ -360,7 +360,7 @@
           </button>
         </div>
       </article>
-      <button class="save-button button" type="button" onclick="window['saveDialog'].showModal()" aria-controls="saveDialog">
+      <button class="save-button button" type="button" onclick="window['saveDialog'].show()" aria-controls="saveDialog">
         <span class="button__icon-container">
           <svg class="icon-floppy" viewBox="0 0 21 21" aria-hidden="true">
             <use href="./svg/floppy.svg#floppy"></use>
@@ -380,11 +380,10 @@
             дискету, чтобы продолжить
           </span>
         </div>
-        <form method="dialog" class="ok-form">
-          <button class="button button-dialog">
-            <span class="button__text">OK</span>
-          </button>
-        </form>
+        <button class="button button-dialog" type="button" onclick="window['saveDialog'].close()" aria-controls="saveDialog">
+          <span class="button__text">OK</span>
+        </button>
+        
       </dialog>
     </section>
 

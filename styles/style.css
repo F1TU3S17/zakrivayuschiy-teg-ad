@@ -153,6 +153,7 @@
   background-color: white;
   border: var(--card-like-button-border-size) var(--card-like-button-border-type) var(--card-like-button-border-color);
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .button:focus {

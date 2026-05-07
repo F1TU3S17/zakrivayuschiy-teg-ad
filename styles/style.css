@@ -281,6 +281,10 @@
   line-height: 150%;
 }
 
+.dialog-form {
+  inline-size: 100%;
+}
+
 .button-dialog {
   inline-size: 100%;
   block-size: 39px;

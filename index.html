@@ -348,7 +348,7 @@
           </button>
         </div>
       </article>
-      <button class="save-button button" type="button" onclick="window['saveDialog'].showModal()" aria-controls="saveDialog">
+      <button class="save-button button" type="button" onclick="window['saveDialog'].showModal();" aria-controls="saveDialog">
         <span class="button__icon-container">
           <svg class="icon-floppy" viewBox="0 0 21 21" aria-hidden="true">
             <use href="./svg/floppy.svg#floppy"></use>
@@ -368,9 +368,11 @@
             дискету, чтобы продолжить
           </span>
         </div>
-        <button class="button button-dialog" type="button" onclick="window['saveDialog'].close()">
-          <span class="button__text">ОК</span>
-        </button>
+        <form class="dialog-form" method="dialog">
+          <button class="button button-dialog" type="submit">
+            <span class="button__text">ОК</span>
+          </button>
+        </form>
       </dialog>
     </section>
 
